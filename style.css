@@ -1,0 +1,47 @@
+body {
+    font-family: 'Ubuntu', serif;
+    font-size: 36px;
+    background-image: linear-gradient(70deg, rgba(255, 255, 255, 0.1) 0px, rgba(255, 255, 255, 0.1) 70%), url("bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-origin: padding-box, padding-box;
+    background-clip: border-box, border-box;
+    background-position: center center;
+      }
+
+
+div {
+  position: relative;
+  top :  500px;
+  right :  300px;
+  left: 300px;
+
+  width: 20rem;
+  height: 11rem;
+  background-color: #C5DFC5;
+  -webkit-animation-name: paumation; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: paumation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes paumation {
+  0%   {background-color:#C5DFC5; left:0px; top:0px;}
+  25%  {background-color:#9CC2AF; left:20rem; top:0px;}
+  50%  {background-color:#65A380; left:20rem; top:20rem;}
+  75%  {background-color:#447F70; left:0px; top:20rem;}
+  100% {background-color:#114C44; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes paumation {
+  0%   {background-color:#C5DFC5; left:0px; top:0px;}
+  25%  {background-color:#9CC2AF; left:20rem; top:0px;}
+  50%  {background-color:#65A380; left:20rem; top:20rem;}
+  75%  {background-color:#447F70; left:0px; top:20rem;}
+  100% {background-color:#114C44; left:0px; top:0px;}
+}

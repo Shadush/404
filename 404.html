@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 40rem;
+  height: 10rem;
+  background-color: #C5DFC5;
+  position: relative;
+  -webkit-animation-name: paumation; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: paumation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes paumation {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:20rem; top:0px;}
+  50%  {background-color:blue; left:20rem; top:20rem;}
+  75%  {background-color:green; left:0px; top:20rem;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes paumation {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:20rem; top:0px;}
+  50%  {background-color:blue; left:20rem; top:20rem;}
+  75%  {background-color:green; left:0px; top:20rem;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+</head>
+<body>
+
+<p><b>Note:</b> Retourne à <a href="index.html">l'accueil</a> stp</p>
+
+<div>Tu es ici...<br>
+  puis là...<br>
+  puis ici !<br>
+  Bref, t'es perdu
+</div>
+
+</body>
+</html>
