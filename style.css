@@ -12,10 +12,10 @@ body {
 
 
 div {
-  position: relative;
-  top :  500px;
-  right :  300px;
-  left: 300px;
+   position: relative;
+
+margin: auto;
+
 
   width: 20rem;
   height: 11rem;
