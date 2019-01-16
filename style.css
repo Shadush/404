@@ -1,7 +1,7 @@
 body {
     font-family: 'Ubuntu', serif;
     font-size: 36px;
-    background-image: linear-gradient(70deg, rgba(255, 255, 255, 0.1) 0px, rgba(255, 255, 255, 0.1) 70%), url("bg.jpg");
+    background-image: linear-gradient(70deg, rgba(255, 255, 255, 0.8) 0px, rgba(255, 255, 255, 0.1) 70%), url("bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
@@ -26,6 +26,7 @@ margin: auto;
   animation-name: paumation;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  border-radius: 10px;
 }
 
 /* Safari 4.0 - 8.0 */
