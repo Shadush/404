@@ -12,11 +12,8 @@ body {
 
 
 div {
-   position: relative;
-
-margin: auto;
-
-
+  position: relative;
+  margin: auto;
   width: 20rem;
   height: 11rem;
   background-color: #C5DFC5;
